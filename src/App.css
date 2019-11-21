@@ -30,3 +30,7 @@
 .atags:hover {
   color: skyblue;
 }
+
+.ERROR {
+  color: red;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Route } from 'react-router-dom'
 import Styled from 'styled-components'
-
+import LogInForm from './LogInForm'
 const Nav = Styled.div`
 display: flex;
 flex-direction: row;
@@ -27,8 +27,9 @@ const Navigation = () => {
           </Link>
         </div>
       </Nav>
+     <Route path="/login" component={LogInForm}/>
     </div>
   )
 }
-
+// MVP MET WITH ROUTING
 export default Navigation
