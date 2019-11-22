@@ -1,7 +1,9 @@
-import React from 'react'
-import { Link, Route } from 'react-router-dom'
-import Styled from 'styled-components'
-import LogInForm from './LogInForm'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Styled from 'styled-components';
+
+
+
 const Nav = Styled.div`
 display: flex;
 flex-direction: row;
@@ -9,7 +11,8 @@ justify-content: space-evenly;
 text-align: center;
 align-items: center;
 background-color: #932F6D;
-`
+`;
+
 
 const Navigation = () => {
   return (
