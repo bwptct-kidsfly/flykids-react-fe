@@ -1,13 +1,29 @@
 import React from "react";
+import Styled from "styled-components";
+
+const Div = Styled.div`
+    border: 10px solid #932F6D;
+    width: 500px;
+    margin: 0 auto 10px;
+    font-size: 1.3rem;
+    background-color:  #DCCCFF;
+    border-radius: 5px;
+`;
+
+const P = Styled.p`
+    color: #420039;
+
+`;
+
 
 const ListContainer = props => {
     return(
         <div>
-            <div>
-                <div><h4>Name: {props.users.name}</h4></div>
-                <div><p>Email: {props.users.email}</p></div>
-                <div><p>Phone: {props.users.phone}</p></div>
-            </div>
+            <Div>
+                <div><P>Name: {props.users.name}</P></div>
+                <div><P>Email: {props.users.email}</P></div>
+                <div><P>Phone: {props.users.phone}</P></div>
+            </Div>
         </div>
     );
 };
