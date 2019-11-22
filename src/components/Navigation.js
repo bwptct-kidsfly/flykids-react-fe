@@ -17,6 +17,11 @@ const Navigation = () => {
       <Nav>
         <h1>KidsFly!</h1>
         <div>
+          <Link to='/users' className='atags'>
+            Users
+          </Link>
+        </div>
+        <div>
           <Link to='/trips' className='atags'>
             Trips
           </Link>
@@ -27,7 +32,6 @@ const Navigation = () => {
           </Link>
         </div>
       </Nav>
-     <Route path="/login" component={LogInForm}/>
     </div>
   )
 }

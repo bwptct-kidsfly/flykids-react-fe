@@ -10,6 +10,8 @@ import SignUpAdmin from './components/signupAdmin'
 import SignIn from './components/signin'
 import Navbar from './components/navBar'
 import TripsList from './components/TripsList'
+import LogInForm from './components/LogInForm'
+import UserList from './components/UserData'
 
 function App(props) {
   useEffect(() => {
@@ -38,6 +40,8 @@ function App(props) {
       />
       <Route exact path='/trips' component={TripsList} />
       <Route exact path='/signin' component={SignIn} />
+      <Route path="/login" component={LogInForm}/>
+      <Route path="/users" component={UserList}/>
     </div>
   )
 }

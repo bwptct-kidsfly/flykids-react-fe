@@ -4,10 +4,9 @@ const ListContainer = props => {
     return(
         <div>
             <div>
-                <p>Airport: {props.trip.airport}</p>
-                <p>Airline: {props.trip.airline}</p>
-                <p>Departure: {props.trip.departure_time}</p>
-                <p>Kids: {props.trip.kids}</p>
+                <div><h4>Name: {props.users.name}</h4></div>
+                <div><p>Email: {props.users.email}</p></div>
+                <div><p>Phone: {props.users.phone}</p></div>
             </div>
         </div>
     );
