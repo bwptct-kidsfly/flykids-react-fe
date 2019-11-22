@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import ListContainer from './TripListContainer'
+import ListContainer from './UserListContainer'
 
 export default function UserList() {
   const [users, setUsers] = useState([])
