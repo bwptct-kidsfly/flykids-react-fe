@@ -4,11 +4,15 @@ const ListContainer = props => {
     return(
         <div>
             <div>
-                <p>name: {props.trip.name}</p>
-                <p>Description: {props.trip.description}</p>
+                <p>Airport: {props.trip.airport}</p>
+                <p>Airline: {props.trip.airline}</p>
+                <p>Departure: {props.trip.departure_time}</p>
+                <p>Kids: {props.trip.kids}</p>
             </div>
         </div>
     );
 };
 
 export default ListContainer;
+
+// Roberts component.
